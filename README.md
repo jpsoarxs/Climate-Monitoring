@@ -15,21 +15,37 @@ Before you begin, ensure that you have Node.js version 18.x and npm 9.8.1 instal
 To run the project in a development environment, follow these steps:
 
 1. Clone the repository:
-   $ git clone [REPOSITORY_URL]
+
+```bash
+$ git clone [REPOSITORY_URL]
+```
 
 2. Navigate to the project folder:
-   $ cd [FOLDER_NAME]
+
+```bash
+$ cd [FOLDER_NAME]
+```
 
 3. Install dependencies:
-   $ npm install
+
+```bash
+$ npm install
+```
 
 4. Modify the key in the `.env.local` file as needed.
 
 5. Start the development server:
-   $ npm run dev
+
+```bash
+$ npm run dev
+```
 
 ### Production using Docker
 
 To run the project in a production environment using Docker, use the following command:
+
+```bash
+$ docker-compose up -d
+```
 
 This will build the Docker image and start the container in detached mode.
